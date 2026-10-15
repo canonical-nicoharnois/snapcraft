@@ -140,6 +140,16 @@ Snapcraft 9.2.0
 - `craft-parts#1178 <https://github.com/canonical/craft-parts/issues/1178>`__ Show the
   URL of the package that could not be retrieved
 
+.. _release-notes-fixes-9.2.1:
+
+Snapcraft 9.2.1
+~~~~~~~~~~~~~~~
+
+- `snapcraft#6497 <https://github.com/canonical/snapcraft/issues/6497>`__ Kernel
+  snaps built from source with an Ubuntu kernel flavour configuration had an empty
+  ``/proc/version_signature``. The plugin now sets ``CONFIG_VERSION_SIGNATURE`` the
+  same way the Ubuntu kernel packages do.
+
 Contributors
 ------------
 
